@@ -198,8 +198,7 @@ export const projects = [
 	{
 		name: "Employee Management System",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://springboot-thymeleaf-app.herokuapp.com/employees/getAll",
-		link: "https://github.com/karthirm/spring-boot-thymeleaf"
+		link: "https://springboot-thymeleaf-app.herokuapp.com/employees/getAll"
 
 	},
 	{
