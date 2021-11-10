@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "react-lottie";
 
 import ReactGA from 'react-ga';
-import React, {useEffect} from 'react'
+import {useEffect} from 'react'
 
 const GreetingLottie = ({ animationPath }) => {
 	const defaultOptions = {
