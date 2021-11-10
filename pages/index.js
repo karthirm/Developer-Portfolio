@@ -13,8 +13,6 @@ const GithubProfileCard = dynamic(() =>
 );
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
-import ReactGA from 'react-ga';
-import React, {useEffect} from 'react'
 
 export default function Home({ githubProfileData }) {
 	return (
@@ -76,8 +74,3 @@ export async function getStaticProps(_) {
 		props: { githubProfileData },
 	};
 }
-
-useEffect(() => {
-ReactGA.initialize('UA-212470797-1');
-ReactGA.pageview(window.location.pathname + window.location.search)
-},[]);
