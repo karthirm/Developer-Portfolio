@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 
-import { greetings, socialLinks } from "../portfolio";
+import { greetings, socialLinks,skillsSection , educationInfo} from "../portfolio";
 import Headroom from "headroom.js";
 import Link from "next/link";
+import { Proficiency } from "../pages/index"; 
 import {
 	UncontrolledCollapse,
 	NavbarBrand,
@@ -81,7 +82,22 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								<NavItem>
+									{/*<NavItem>
+									<NavLink
+										rel="noopener"
+										aria-label=""
+										className="nav-link-icon"
+										href={educationInfo}
+										target="_blank"
+									>
+										<i className="skills" />
+										<span className="nav-link-inner--text d-lg-none ml-2">
+											Skills
+										</span>
+									</NavLink>
+								</NavItem>*/}
+
+								{/*<NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Facebook"
@@ -94,8 +110,8 @@ const Navigation = () => {
 											Facebook
 										</span>
 									</NavLink>
-								</NavItem>
-								<NavItem>
+								</NavItem>*/}
+								{/*<NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Instagram"
@@ -150,7 +166,7 @@ const Navigation = () => {
 											Linkedin
 										</span>
 									</NavLink>
-								</NavItem>
+								</NavItem>*/}
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

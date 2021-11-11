@@ -5,6 +5,10 @@ import "../styles/argon-design-system-react.css";
 import ReactGA from 'react-ga';
 import React, {useEffect} from 'react'
 
+// import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import ScrollToTop from "./components/ScrollToTop";
+
 function MyApp({ Component, pageProps }) {
 	useEffect(() => {
 	ReactGA.initialize('UA-212470797-1');

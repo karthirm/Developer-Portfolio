@@ -4,8 +4,8 @@ export const greetings = {
 	name: "Karthikeyan Ramanathan",
 	title: "Hi all, I'm Karthi",
 	description:
-		"A passionate and motivated Java-Spring Boot Backend Web Developer and can work as a full stack Developer with Angular being the front-end, having an experience of building Web applications with Java / Spring / SpringBoot / Hibernate / JavaScript and some other cool libraries and frameworks",
-	resumeLink: "",
+		"A passionate and motivated Java-Spring Boot Backend Web Developer and can work as a full stack Developer with Angular being the front-end, having experience of building Web applications with Java / Spring / SpringBoot / Hibernate / JavaScript and some other cool libraries and frameworks",
+	resumeLink: "https://github.com/karthirm/karthirm/tree/main/resumes/Karthikeyan-Ramanathan_Resume.pdf",
 };
 
 export const openSource = {
@@ -132,16 +132,6 @@ export const SkillBars = [
 ];
 
 export const educationInfo = [
-	{
-		schoolName: "Raj Matriculation",
-		subHeader: "Master of Science in Computer Science",
-		duration: "June 1994 - April 2008",
-		desc: "Did my schooling",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
 	{
 		schoolName: "PSG College Of Technology, Coimbatore",
 		subHeader: "Master of Science in Theoretical Computer Science",

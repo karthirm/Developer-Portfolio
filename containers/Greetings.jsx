@@ -41,16 +41,17 @@ const Greetings = () => {
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
-											href={greetings.resumeLink}
+											a href={greetings.resumeLink}
 										>
 											<span className="btn-inner--icon mr-1">
 												<i className="fa fa-file" />
 											</span>
 											<span className="btn-inner--text">
-												See My Resume
+												See My Resume 
 											</span>
 										</Button>
 									</div>
+									{/*<a href={require()} download="myFile">Download file</a>*/}
 								</Col>
 								<Col lg="6">
 									<GreetingLottie animationPath="/lottie/coding.json" />
