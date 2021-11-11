@@ -22,7 +22,7 @@ export default function Home({ githubProfileData }) {
 					title: "Karthikeyan Ramanathan",
 					description:
 						"A passionate Backend Web Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+					image: "https://avatars.githubusercontent.com/karthirm",
 					url: "https://karthikeyan-rm.netlify.app",
 					keywords: [
 						"Karthi",
