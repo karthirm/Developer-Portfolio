@@ -8,6 +8,7 @@ import {
 	CardText,
 	CardHeader,
 	Col,
+	Badge
 } from "reactstrap";
 
 import Color from "color-thief-react";
@@ -43,7 +44,8 @@ const ExperienceCard = ({ data }) => {
 							/>
 						</div>
 						<CardTitle tag="h5">{data.role}</CardTitle>
-						<CardSubtitle>{data.date}</CardSubtitle>
+						<Badge color="info" className="mr-1">{data.date}</Badge>
+						{/*<CardSubtitle>{data.date}</CardSubtitle>*/}
 						<CardText className="description my-3 text-left">
 							{data.desc}
 							<ul>

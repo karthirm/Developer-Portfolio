@@ -22,7 +22,7 @@ const GithubProfileCard = ({ prof }) => {
 						<Col lg="8" className="order-lg-1">
 							<h2 className="text-white">Reach Out to me!</h2>
 							<p className="lead text-white mt-3">
-								ARE YOU RECRUITING OR WANT TO DISCUSS A TECH STACK/STUFF ? MY
+								ARE YOU RECRUITING OR LOOKING FOR A SUITABLE CANDIDATE TO YOUR COMPANY ? MY
 								INBOX IS OPEN
 							</p>
 							<p className="text-white mt-3">{prof.bio}</p>

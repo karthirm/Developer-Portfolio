@@ -82,22 +82,9 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-									{/*<NavItem>
-									<NavLink
-										rel="noopener"
-										aria-label=""
-										className="nav-link-icon"
-										href={educationInfo}
-										target="_blank"
-									>
-										<i className="skills" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Skills
-										</span>
-									</NavLink>
-								</NavItem>*/}
+									
 
-								{/*<NavItem>
+								<NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Facebook"
@@ -110,8 +97,8 @@ const Navigation = () => {
 											Facebook
 										</span>
 									</NavLink>
-								</NavItem>*/}
-								{/*<NavItem>
+								</NavItem>
+								<NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Instagram"
@@ -166,7 +153,7 @@ const Navigation = () => {
 											Linkedin
 										</span>
 									</NavLink>
-								</NavItem>*/}
+								</NavItem>
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

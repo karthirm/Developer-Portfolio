@@ -24,7 +24,9 @@ const EdutionCard = ({ education }) => {
 											return <li key={desc}>{desc}</li>;
 									  })
 									: null}
+									<a href={education.link}>Research Publication</a>
 							</ul>
+
 						</div>
 					</div>
 				</CardBody>

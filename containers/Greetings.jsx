@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
-import { greetings } from "../portfolio";
+import { greetings,saveFile } from "../portfolio";
 
 import { Button, Container, Row, Col } from "reactstrap";
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
+
+
 
 const Greetings = () => {
 	useEffect(() => {
@@ -26,6 +28,7 @@ const Greetings = () => {
 						<span />
 						<span />
 					</div>
+			
 					<Container className="py-lg-md d-flex">
 						<div className="col px-0">
 							<Row>
@@ -36,7 +39,7 @@ const Greetings = () => {
 									<p className="lead text-white">
 										{greetings.description}
 									</p>
-									<SocialLinks />
+									{/*<SocialLinks />*/}
 									<div className="btn-wrapper my-4">
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
@@ -50,8 +53,35 @@ const Greetings = () => {
 												See My Resume 
 											</span>
 										</Button>
+										<br />
+										<br />
+										<Button
+											className="btn-neutral btn-icon mb-3 mb-sm-0 ml-1"
+											color="#0e1b30"
+											a href={greetings.blogsLink}
+										>
+											<span className="btn-inner--icon mr-1">
+												<i className="fa fa-file" />
+											</span>
+											<span className="btn-inner--text">
+												View My Blogs 
+											</span>
+										</Button>
+										<br />
+										<br />
+										<Button
+											className="btn-success btn-icon mb-3 mb-sm-0 ml-1"
+											color="#212529"
+											a href={greetings.mailLink}
+										>
+											<span className="btn-inner--icon mr-1">
+												<i className="fa fa-file" />
+											</span>
+											<span className="btn-inner--text">
+												Mail me for an opening in your company
+											</span>
+										</Button>
 									</div>
-									{/*<a href={require()} download="myFile">Download file</a>*/}
 								</Col>
 								<Col lg="6">
 									<GreetingLottie animationPath="/lottie/coding.json" />

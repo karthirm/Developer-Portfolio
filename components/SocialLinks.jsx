@@ -66,7 +66,7 @@ const SocialLinks = () => {
 				<span className="btn-inner--icon">
 					<i className="fa fa-linkedin" />
 				</span>
-			</Button>
+			</Button> 
 		</div>
 	);
 };

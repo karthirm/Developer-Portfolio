@@ -17,13 +17,13 @@ const ProjectsCard = ({ data }) => {
 								{data.github ? (
 									<Button
 										className="btn-icon"
-										color="github"
-										href={data.link}
+										color="success"
+										href={data.github}
 										target="_blank"
-										rel="noopener"
-										aria-label="Github"
+										rel="noopener" aria-label="Github"
 									>
 										<span className="btn-inner--icon">
+										
 											<i className="fa fa-github" />
 										</span>
 									</Button>
