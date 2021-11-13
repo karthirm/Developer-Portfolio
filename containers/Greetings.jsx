@@ -78,7 +78,7 @@ const Greetings = () => {
 												<i className="fa fa-file" />
 											</span>
 											<span className="btn-inner--text">
-												Mail me for an opening in your company
+												Mail me for a new challenge
 											</span>
 										</Button>
 									</div>

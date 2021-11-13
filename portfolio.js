@@ -27,7 +27,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"An EVER-IMPROVING BACK END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK AND LEARNING ANGULAR",
+		"An EVER-IMPROVING BACK END DEVELOPER WHO WANTS TO EXPLORE TECH STACK AND LEARNING ANGULAR",
 	skills: [
 		emoji(
 			"⚡ Develop highly available and scalable back-end stack for web applications"
@@ -36,19 +36,19 @@ export const skillsSection = {
 			"⚡ Possess good knowledge in Java, Spring Boot, Hibernate, Microservices"
 		),
 		emoji(
-			"⚡ Deployed applications into third party services such as Heroku/ Netlfiy/ Google Cloud"
-		),
-		emoji(
 			"⚡ Possess sufficient knowledge in Docker, Openshift & Kubernetes to work on containerization and orchestration of microservices"
 		),
 		emoji(
-			"⚡ Have worked on integrating the applications with CI/CD - Bitbucket-Jenkins as well Github-Heroku"
+			"⚡ Deployed applications into third party services such as Heroku/ Netlfiy/ Google Cloud"
+		),
+		emoji(
+			"⚡ Have worked on integrating the applications with CI/CD - Bitbucket-Jenkins, Github-Heroku and Github-Netlify"
 		),
 	],
 
 	softwareSkills: [
 		{
-			skillName: "java",
+			skillName: "Java",
 			fontAwesomeClassname: "logos:java",
 		},
 		{
@@ -57,7 +57,7 @@ export const skillsSection = {
 		},
 		{
 			skillName: "Hibernate",
-			fontAwesomeClassname: "logos:Hibernate",
+			fontAwesomeClassname: "logos:hibernate",
 		},
 		{
 			skillName: "Oracle-db",
@@ -66,6 +66,18 @@ export const skillsSection = {
 		{
 			skillName: "mysql-db",
 			fontAwesomeClassname: "vscode-icons:file-type-mysql",
+		},
+		{
+			skillName: "docker",
+			fontAwesomeClassname: "logos:docker-icon",
+		},
+		{
+			skillName: "Openshift",
+			fontAwesomeClassname: "logos:openshift",
+		},
+		{
+			skillName: "Kubernetes",
+			fontAwesomeClassname: "logos:kubernetes",
 		},
 		{
 			skillName: "html-5",
@@ -80,24 +92,32 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:javascript",
 		},
 		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
-		},
-		{
 			skillName: "Angular",
 			fontAwesomeClassname: "vscode-icons:file-type-angular",
 		},
 		{
-			skillName: "Openshift",
-			fontAwesomeClassname: "logos:Openshift-icon",
+			skillName: "MongoDB",
+			fontAwesomeClassname: "vscode-icons:file-type-mongo",
 		},
 		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
 		{
-			skillName: "mongoDB",
-			fontAwesomeClassname: "vscode-icons:file-type-mongo",
+			skillName: "Bitbucket",
+			fontAwesomeClassname: "logos:bitbucket",
+		},
+		{
+			skillName: "Jenkins",
+			fontAwesomeClassname: "logos:jenkins",
+		},
+		{
+			skillName: "Netlify",
+			fontAwesomeClassname: "logos:netlify",
+		},
+		{
+			skillName: "Heroku",
+			fontAwesomeClassname: "logos:heroku",
 		},
 	],
 };
